@@ -1,0 +1,54 @@
+# IDE and OS generated files
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+ehthumbs.db
+*.swp
+*.bak
+*.log
+
+# Composer dependencies
+/vendor/
+composer.phar
+
+# Framework-specific files (examples for common PHP frameworks)
+# Laravel
+/bootstrap/cache/
+/storage/*.key
+/storage/app/public/
+/storage/framework/
+/storage/logs/
+.env
+.env.backup
+
+# Symfony
+/var/
+/public/build/
+/public/bundles/
+.env
+.env.local
+.env.local.php
+.env.test
+.env.test.local
+
+# CodeIgniter
+/writable/cache/
+/writable/logs/
+/writable/session/
+
+# General PHP project files
+*.phar
+*.sql
+*.sqlite
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.tmp
+/node_modules/ # If using frontend build tools like Webpack/NPM
+/web/assets/ # If using a build process that generates assets
+
+# Custom files or directories you want to ignore
+# For example, if you have sensitive configuration files outside of .env
+# /config/sensitive_config.php
